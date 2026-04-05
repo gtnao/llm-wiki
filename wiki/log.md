@@ -16,3 +16,8 @@
 - sources: 2026-04-05_meilisearch_14-types-of-rag-retrieval-augmented-generation.md, 2026-04-05_meilisearch_9-advanced-rag-techniques-to-know-how-to-implement-them.md, 2026-04-05_dev_beyond-vanilla-rag-the-7-modern-rag-architectures-every-ai-engineer-must-know.md, 2026-04-05_ragflow_from-rag-to-context-a-2025-year-end-review-of-rag.md, 2026-04-05_neuramonks_standard-rag-is-dead-what-s-replacing-it-in-2026.md
 - wiki updates: created rag.md, created rag-advanced-techniques.md, created rag-variants.md, created rag-trends-2026.md, updated llm-wiki-pattern.md, updated index.md
 - notes: RAG の体系学習。基本概念・フロー、発展的テクニック（chunking, reranking, hybrid search等）、派生アーキテクチャ（Self-RAG, CRAG, GraphRAG, Agentic RAG等14種）、2026年トレンド（Context Engineering, Long Context協調, 評価フレームワーク）をカバー
+
+## [2026-04-05] ingest | Agentic RAG 深掘り（批判・トレードオフ・本番運用）
+- sources: 2026-04-05_towardsdatascience_agentic-rag-vs-classic-rag-from-a-pipeline-to-a-control-loop.md, 2026-04-05_dev_agentic-rag-the-complete-production-guide-nobody-else-wrote.md, 2026-04-05_vellum_agentic-rag-architecture-use-cases-and-limitations.md
+- wiki updates: created agentic-rag.md, updated rag-variants.md, updated index.md
+- notes: Agentic RAG の構造的差異、5コンポーネントアーキテクチャ、本番失敗パターン5種、コスト分析（$0.02-$0.31/query）、判断マトリクス、ハイブリッド戦略を詳述
