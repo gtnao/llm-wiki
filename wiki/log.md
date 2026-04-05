@@ -32,6 +32,11 @@
 - wiki updates: created snowflake-cortex.md, updated rag-enterprise-platforms.md, updated index.md
 - notes: Cortex の全サービス体系を網羅。LLM Functions (COMPLETE/SUMMARIZE/TRANSLATE/EXTRACT_ANSWER/SENTIMENT)、Cortex Search、Cortex Analyst、Cortex Agents、Fine-tuning、Cortex Code (Snowsight/CLI)、ML Functions、Snowflake ML。SQL インターフェース、利用可能モデル、セキュリティ原則、モデルライフサイクルを整理
 
+## [2026-04-06] ingest | エージェントハーネスの設計パターン（2ソース統合）
+- sources: 2026-04-06_generativeprogrammer_12-agentic-harness-patterns-from-claude-code.md, 2026-04-06_magazine_components-of-a-coding-agent.md
+- wiki updates: created agentic-harness-patterns.md, updated index.md
+- notes: 2つの補完的フレームワークを統合。(1) Generative Programmer: Claude Code リークからの12パターン（Memory & Context, Workflow & Orchestration, Tools & Permissions, Automation）。(2) Raschka: コーディングハーネスの6コンポーネント（Live Repo Context, Prompt Shape & Cache, Structured Tools, Context Reduction, Transcripts & Memory, Delegation & Subagents）。用語体系（LLM→Reasoning Model→Agent→Harness→Coding Harness）、ハーネスが差別化要因であるという主張、プロンプトキャッシュ最適化、Coding Harness vs General Agent Platform の比較、リファレンス実装 mini-coding-agent を追加
+
 ## [2026-04-05] ingest | Snowflake Cortex クエリレベル詳細
 - sources: 2026-04-05_aimpointdigital_leveraging-snowflake-cortex-s-search-to-build-rag-systems.md, 2026-04-05_snowflake_snowflake-cortex-analyst-and-cortex-search-better-together.md
 - wiki updates: updated snowflake-cortex.md (Cortex Search/Analyst/Agents のクエリ例追加)
