@@ -31,3 +31,8 @@
 - sources: 2026-04-05_docs_snowflake-ai-and-ml-snowflake-documentation.md, 2026-04-05_dataengineerhub_snowflake-cortex-ai-complete-guide-for-2026.md
 - wiki updates: created snowflake-cortex.md, updated rag-enterprise-platforms.md, updated index.md
 - notes: Cortex の全サービス体系を網羅。LLM Functions (COMPLETE/SUMMARIZE/TRANSLATE/EXTRACT_ANSWER/SENTIMENT)、Cortex Search、Cortex Analyst、Cortex Agents、Fine-tuning、Cortex Code (Snowsight/CLI)、ML Functions、Snowflake ML。SQL インターフェース、利用可能モデル、セキュリティ原則、モデルライフサイクルを整理
+
+## [2026-04-05] ingest | Snowflake Cortex クエリレベル詳細
+- sources: 2026-04-05_aimpointdigital_leveraging-snowflake-cortex-s-search-to-build-rag-systems.md, 2026-04-05_snowflake_snowflake-cortex-analyst-and-cortex-search-better-together.md
+- wiki updates: updated snowflake-cortex.md (Cortex Search/Analyst/Agents のクエリ例追加)
+- notes: CREATE CORTEX SEARCH SERVICE の完全構文・パラメータ、Python/REST/SQL 検索API、フィルタ構文、RAG回答生成パターン (Search+COMPLETE)、Cortex Analyst セマンティックモデルYAML、Search連携によるリテラル解決、Cortex Agents ツール定義・レスポンス形式を追加
