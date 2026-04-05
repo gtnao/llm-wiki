@@ -102,6 +102,36 @@ SELECT SNOWFLAKE.CORTEX.COMPLETE('llama3.1-70b', 'プロンプト') FROM my_tabl
 
 データが Snowflake を離れない。API キー管理不要。SQL だけ。
 
+## 課金モデルとサードパーティモデル
+
+Amazon Bedrock と同じ構造。Anthropic や OpenAI と個別契約する必要はなく、**Snowflake の契約・課金体系の中**で各社のモデルを利用する。
+
+### 仕組み
+- 課金は**トークンベース**で Snowflake クレジットに換算
+- データは Snowflake のセキュリティ境界内で処理され、外部に出ない
+- モデルが自リージョンにない場合、**Cross-region inference** で別リージョンにルーティング可能（例: `deepseek-r1` は `AWS_US` にルーティング）
+
+### モデル間の価格差
+
+モデル間で **10倍以上の価格差**がある。タスクに応じた選択が重要。
+
+| モデル | 価格目安 |
+|---|---|
+| Claude Opus | 12 クレジット / 100万トークン |
+| 小型モデル (Llama 8b 等) | 数分の1クレジット / 100万トークン |
+
+同一タスク（10万件のレビュー分析）で小型モデル $3/月 vs Claude $60/月 のような差が出る。単純なカテゴリ分類や感情分析には小型モデルで十分なケースが多い。
+
+### Bedrock との比較
+
+| 観点 | Snowflake Cortex | Amazon Bedrock |
+|---|---|---|
+| インターフェース | SQL 関数 (`SNOWFLAKE.CORTEX.COMPLETE(...)`) | SDK / API |
+| 統合対象 | Snowflake 内のデータ | AWS サービス全般 |
+| 課金統合 | Snowflake クレジット | AWS 請求 |
+| データ移動 | 不要（Snowflake 内で完結） | S3 等からの読み込みは必要 |
+| ユースケース | データ分析・BI と一体化した AI | 汎用 AI アプリケーション構築 |
+
 ## 採用状況
 
 9,100+ アカウントが Cortex を利用。AI 関連ワークロードは 200%+ 成長。
