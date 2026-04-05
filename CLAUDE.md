@@ -125,3 +125,14 @@ cd tools && pnpm tsx clip.ts <url>
 
 @mozilla/readability で本文抽出 → turndown + GFM で Markdown 変換 → 所定のフロントマター付きで raw/ に出力。
 ファイル名は `YYYY-MM-DD_source_slug.md` 形式で自動生成される。
+
+### pending.ts
+
+raw/ 内の未 ingest ファイルを検出して表示する。
+
+```bash
+cd tools && pnpm tsx pending.ts
+```
+
+wiki/log.md の ingest エントリと raw/ のファイル一覧を突合し、未処理のファイルをリストアップする。
+セッション開始時の未 ingest チェックにも利用できる。
