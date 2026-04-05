@@ -44,7 +44,7 @@ type: article | tweet | paper | video-transcript | gist | ...
 
 フラット構成。ディレクトリのネストはしない。
 
-- `wiki/index.md` — 全ページカタログ。カテゴリ別に整理。LLM はクエリ時にまずこれを読む
+- `wiki/index.md` — 全ページカタログ。カテゴリ別に整理。LLM はクエリ時にまずこれを読む。カテゴリ（見出し）は固定ではなく、ingest 時に内容に応じて追加・変更・統合してよい
 - `wiki/log.md` — 操作ログ（追記専用）
 
 ### ページのフロントマター
