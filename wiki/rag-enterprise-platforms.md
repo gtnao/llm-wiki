@@ -14,7 +14,7 @@ updated: 2026-04-05
 
 ### Snowflake
 
-- **Snowflake Cortex** — LLM推論、ベクトル検索、エージェント機能をSnowflakeプラットフォーム内で直接提供
+- **[Snowflake Cortex](snowflake-cortex.md)** — LLM推論、ベクトル検索、エージェント機能をSnowflakeプラットフォーム内で直接提供
 - **最大の強み**: データ移動ゼロ（AI ワークロードが既存のSnowflakeデータ上で直接実行）
 - **Agentic Document Analytics** — 構造化データなしに数千のソースを横断分析可能。従来のRAGパイプラインを拡張
 - ポジショニング: 使いやすさ、セキュリティ、構造化データ分析。SQL ベースのセルフサービス

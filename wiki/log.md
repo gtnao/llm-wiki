@@ -26,3 +26,8 @@
 - sources: 2026-04-05_firecrawl_best-vector-databases-in-2026-a-complete-comparison-guide.md, 2026-04-05_firecrawl_15-best-open-source-rag-frameworks-in-2026.md, 2026-04-05_dasroot_securing-internal-rag-systems-in-enterprises.md, 2026-04-05_nstarxinc_the-next-frontier-of-rag-how-enterprise-knowledge-systems-will-evolve-2026-2030.md, 2026-04-05_cio_snowflake-and-databricks-vie-for-the-heart-of-enterprise-ai.md
 - wiki updates: created rag-tech-stack.md, created rag-enterprise-platforms.md, created rag-security.md, updated index.md
 - notes: VectorDB 18種比較・選定フレームワーク、OSSフレームワーク (LangChain/LlamaIndex/DSPy等)、埋め込みモデル比較、ハイパースケーラーRAGオファリング (Snowflake Cortex/Databricks Mosaic AI/Vertex AI/Azure)、セキュリティリスク4種 (AgentSmith/CVE-2025-1793/BadRAG/TrojanRAG)、アクセス制御・暗号化・プロヴナンス・評価フレームワーク
+
+## [2026-04-05] ingest | Snowflake Cortex AI 網羅的調査
+- sources: 2026-04-05_docs_snowflake-ai-and-ml-snowflake-documentation.md, 2026-04-05_dataengineerhub_snowflake-cortex-ai-complete-guide-for-2026.md
+- wiki updates: created snowflake-cortex.md, updated rag-enterprise-platforms.md, updated index.md
+- notes: Cortex の全サービス体系を網羅。LLM Functions (COMPLETE/SUMMARIZE/TRANSLATE/EXTRACT_ANSWER/SENTIMENT)、Cortex Search、Cortex Analyst、Cortex Agents、Fine-tuning、Cortex Code (Snowsight/CLI)、ML Functions、Snowflake ML。SQL インターフェース、利用可能モデル、セキュリティ原則、モデルライフサイクルを整理
