@@ -1,0 +1,6 @@
+# OS
+.DS_Store
+
+# Large binaries (add specific patterns as needed)
+# *.pdf
+# *.mp4
